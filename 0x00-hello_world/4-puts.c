@@ -3,9 +3,10 @@
 * Description of main function.
 * Return: always 0
 */
-/*main function to print what needed*/
+
 int main(void)
 {
+/*main function to print what needed*/
 puts("\"Programming is like building a multilingual puzzle");
 
 return (0);
