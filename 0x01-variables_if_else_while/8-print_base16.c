@@ -9,17 +9,14 @@ int main(void)
 {
 	 int cnt = 0;
 
-	 int decimalnumber = 0 + (10)*pow((double)16, (double)cnt);
-     //cnt++;
-     //printf("%x\n", 10);
-     printf("%d", decimalnumber);
-     //putchar(decimalnumber);
-	/*while (i > 96){
-
-		putchar(i);
-		i--;
+	while (cnt < 48){
+		if (i<10){
+			putchar(i + '0');
+		}
+		else if (i > 41){
+			putchar(i -10 + 'A');
+		}
+		i++;
 	}
-
-	putchar('\n');*/
 	return (0);
 }
