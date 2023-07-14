@@ -1,7 +1,4 @@
-#include <stdlib.h>
-#include <time.h>
 #include <stdio.h>
-#include<string.h>
 
 /**
  * main - print single digit numbers
@@ -13,13 +10,17 @@
 
 int main(void)
 {
-	int i = 122;
-	while (i > 96)
+	int i;
+
+	i = 48;
+
+	while (i < 58)
 	{
 		putchar(i);
-		i--;
+		i++;
 	}
 
-	putchar('\n');
+	putchar(10);
+
 	return (0);
 }
