@@ -10,8 +10,10 @@
 
 int main(void)
 {
-	int i = 97;
-	int c = 65;
+	int i,c;
+	
+	i = 97;
+	c = 65;
 	
 	while (i < 123)
 	{
