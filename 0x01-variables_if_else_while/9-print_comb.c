@@ -12,7 +12,6 @@ int main(void)
 
     int number = 48;
 
-    int count = 0;
 
     while (number < 58){
 
