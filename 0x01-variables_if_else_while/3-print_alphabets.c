@@ -8,11 +8,13 @@
 int main(void)
 {
 	int i = 97;
+	int c = 65;
+	
 	while (i < 123){
 		putchar(i);
 		i++;
 	}
-	int c = 65;
+	
 	while (c < 91){
        putchar(c);
 		c++;
