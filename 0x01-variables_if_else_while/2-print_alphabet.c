@@ -7,13 +7,21 @@
 /* betty style doc for function main goes there */
 int main(void)
 {
+//char str[] = "ABCDEFGHIJKLMN";
+	char str[27];
+	int size;
+	int count;
+	char ch;
 
-    char str[] = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
-    int size = sizeof(str) - 1;
-    int count = 0;
+    str[27] = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+
+    size = sizeof(str) - 1;
+
+    count = 0;
 
     while (count <= size){
-        putchar(tolower(str[count]));
+        ch = tolower(str[count]);
+        putchar(ch);
         count++;
     }
     putchar('\n');
