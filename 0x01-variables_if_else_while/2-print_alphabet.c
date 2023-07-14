@@ -7,13 +7,12 @@
 /* betty style doc for function main goes there */
 int main(void)
 {
-//char str[] = "ABCDEFGHIJKLMN";
 	char str[27];
 	int size;
 	int count;
 	char ch;
 
-    str[27] = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+    str*[27] = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
 
     size = sizeof(str) - 1;
 
