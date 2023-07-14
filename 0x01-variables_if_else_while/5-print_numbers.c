@@ -1,9 +1,9 @@
 #include <stdio.h>
 
 /**
- * main - print the letters of the alphabet
+ * main - print single digit numbers
  *
- * Description: print the letters of the alphabet except e, q
+ * Description: print single digit numbers
  *
  * Return: Always 0 (Success)
  */
@@ -12,15 +12,15 @@ int main(void)
 {
 	int i;
 
-	i = 0;
-		
-	while (i < 10)
+	i = 48;
+
+	while (i < 58)
 	{
-		printf("%d", i);
+		putchar(i);
 		i++;
 	}
-	
-	putchar('\n');
-	
+
+	putchar(10);
+
 	return (0);
 }
