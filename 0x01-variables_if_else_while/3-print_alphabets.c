@@ -10,10 +10,10 @@
 
 int main(void)
 {
-	int i, c;
+	int i, j;
 	
 	i = 97;
-	c = 65;
+	j = 65;
 	
 	while (i < 123)
 	{
@@ -21,10 +21,10 @@ int main(void)
 		i++;
 	}
 	
-	while (c < 91)
+	while (j < 91)
 	{
-        	putchar(c);
-		c++;
+        	putchar(j);
+		j++;
 	}
 	
 	putchar(10);
