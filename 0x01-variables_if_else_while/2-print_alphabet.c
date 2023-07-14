@@ -2,7 +2,6 @@
 #include <time.h>
 #include <stdio.h>
 #include<string.h>
-
 /**
 * main - program
 * Return: always 0
