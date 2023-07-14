@@ -10,13 +10,13 @@ int main(void)
 	 int cnt = 0;
 
 	while (cnt < 48){
-		if (i<10){
-			putchar(i + '0');
+		if (cnt<10){
+			putchar(cnt + '0');
 		}
-		else if (i > 41){
-			putchar(i -10 + 'A');
+		else if (cnt > 41){
+			putchar(cnt -10 + 'A');
 		}
-		i++;
+		cnt++;
 	}
 	return (0);
 }
