@@ -1,11 +1,8 @@
 #include <stdio.h>
 
 /**
-* main - program
-*  
-* Description: Do something
-*
-* Return: always 0
+ * main - program
+ * Return: always 0
 */
 
 int main(void)
