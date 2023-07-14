@@ -3,10 +3,17 @@
 #include <stdio.h>
 #include<string.h>
 
+/**
+ * main - print the letters of the alphabet
+ * Return: Always 0 (Success)
+ */
+
 int main(void)
 {
 	int i = 97;
-	while (i < 123){
+	
+	while (i < 123)
+	{
 
 	   if (i != 101 && i != 113){
             putchar(i);
@@ -16,5 +23,6 @@ int main(void)
 	}
 
 	putchar('\n');
+	
 	return (0);
 }
