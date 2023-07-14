@@ -2,14 +2,20 @@
 #include <time.h>
 #include <stdio.h>
 #include<string.h>
-/* more headers goes there */
 
-/* betty style doc for function main goes there */
+/**
+ * main - print single digit numbers
+ *
+ * Description: print single digit numbers
+ *
+ * Return: Always 0 (Success)
+ */
+
 int main(void)
 {
 	int i = 122;
-	while (i > 96){
-
+	while (i > 96)
+	{
 		putchar(i);
 		i--;
 	}
