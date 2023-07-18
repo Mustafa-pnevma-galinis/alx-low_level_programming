@@ -8,7 +8,7 @@
 
         while (val < 123){
 
-            putchar(val);
+            _putchar(val);
 
             val += 1;
 
@@ -16,7 +16,7 @@
 
                 count++;
                 val = 97;
-                putchar('\n');
+                _putchar('\n');
             }
 
         }
