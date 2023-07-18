@@ -1,24 +1,33 @@
-#include <stdlib.h>
-#include <time.h>
 #include <stdio.h>
-#include<string.h>
-/* more headers goes there */
 
-/* betty style doc for function main goes there */
+/**
+ * main - print the letters of the alphabet
+ *
+ * Description: print the letters of the alphabet in lower then in uppercase
+ *
+ * Return: Always 0 (Success)
+ */
+
 int main(void)
 {
-	int i = 97;
-	int c = 65;
-	
-	while (i < 123){
+	int i, j;
+
+	i = 97;
+	j = 65;
+
+	while (i < 123)
+	{
 		putchar(i);
 		i++;
 	}
-	
-	while (c < 91){
-       putchar(c);
-		c++;
+
+	while (j < 91)
+	{
+		putchar(j);
+		j++;
 	}
-	putchar('\n');
+
+	putchar(10);
+
 	return (0);
 }

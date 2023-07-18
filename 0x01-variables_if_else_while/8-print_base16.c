@@ -1,23 +1,26 @@
-#include <stdlib.h>
-#include <time.h>
 #include <stdio.h>
-#include<string.h>
-/* more headers goes there */
 
-/* betty style doc for function main goes there */
+/**
+ * main - print the letters of the alphabet
+ *
+ * Description: print the letters of the alphabet except e, q
+ *
+ * Return: Always 0 (Success)
+ */
+
 int main(void)
 {
-	 int cnt = 0;
+	int i = 0;
 
-	while (cnt < 48){
-		if (cnt<10){
-			putchar(cnt + '0');
-		}
-		else if (cnt > 41){
-			putchar(cnt -10 + 'A');
-		}
-		cnt++;
+	while (i < 48)
+	{
+		if (i < 10)
+			putchar(i + '0');
+		else if (i > 41)
+			putchar(i - 10 + 'A');
+		i++;
 	}
-	putchar('\n');
+	putchar(10);
+
 	return (0);
 }
