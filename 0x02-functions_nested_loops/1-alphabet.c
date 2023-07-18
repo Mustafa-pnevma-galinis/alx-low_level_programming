@@ -1,18 +1,21 @@
 #include "main.h"
 
-int main(void){
+/**
+* print_alphabet is a function to print entire en alphabet in lowercase
+* 
+* Return: void
+*/
+void print_alphabet(){
+    int val = 97;
 
-    void print_alphabet(){
-        int val = 97;
-
-        while (val <= 122)
-        {
-            putchar(val);
-            val += 1;
-        }
+    while (val <= 122)
+    {
+        putchar(val);
+        val += 1;
     }
-    print_alphabet();
-
-    putchar('\n');
-    return 0;
 }
+print_alphabet();
+
+putchar('\n');
+
+
