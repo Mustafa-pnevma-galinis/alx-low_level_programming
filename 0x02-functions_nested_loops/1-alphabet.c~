@@ -1,0 +1,18 @@
+#include <stdio.h>
+
+int main(void){
+
+    void print_alphabet(){
+        int val = 97;
+
+        while (val <= 122)
+        {
+            putchar(val);
+            val += 1;
+        }
+    }
+    print_alphabet();
+
+    putchar('\n');
+    return 0;
+}
