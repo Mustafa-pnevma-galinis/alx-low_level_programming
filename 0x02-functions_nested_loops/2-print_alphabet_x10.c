@@ -1,4 +1,13 @@
- void print_alphabet_x10(){
+#include "main.h"
+
+/**
+* print_alphabet - a function to print entire en alphabet in lowercase
+* 
+* Return: void
+*/
+
+
+void print_alphabet_x10(){
 
 
         int val = 97;
