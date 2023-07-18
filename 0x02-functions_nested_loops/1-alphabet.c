@@ -5,7 +5,8 @@
 * 
 * Return: void
 */
-void print_alphabet(void){
+void print_alphabet(void)
+{
     int val = 97;
 
     while (val <= 122)
@@ -13,7 +14,7 @@ void print_alphabet(void){
         _putchar(val);
         val += 1;
     }   
-_putchar('\n');
+    _putchar('\n');
 }
 
 
