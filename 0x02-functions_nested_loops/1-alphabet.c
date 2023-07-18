@@ -12,10 +12,10 @@ void print_alphabet(void){
     {
         _putchar(val);
         val += 1;
-    }
-}
-print_alphabet();
-
+    }   
 _putchar('\n');
+}
+
+
 
 
