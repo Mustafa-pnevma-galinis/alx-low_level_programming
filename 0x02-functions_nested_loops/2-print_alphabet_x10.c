@@ -21,6 +21,6 @@
 
         }
 
-        printf("\n");
+        _printf("\n");
           
     }
