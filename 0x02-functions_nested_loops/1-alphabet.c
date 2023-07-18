@@ -10,7 +10,7 @@ void print_alphabet(){
 
     while (val <= 122)
     {
-        _putchar_(val);
+        _putchar(val);
         val += 1;
     }
 }
