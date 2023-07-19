@@ -2,9 +2,9 @@
 
 
 /**
-* print_alphabet_x10 - a function to print entire en alphabet in lowercase 10 times
+* _islower - a function returns 0 if character is uppercase and 1 if character is lower 
 * 
-* Return: void
+* Return: 0 or 1
 */
 
 int _islower(int c){
