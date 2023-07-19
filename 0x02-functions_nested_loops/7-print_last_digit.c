@@ -17,5 +17,5 @@ int print_last_digit(int num)
 
   _putchar(e + '0');
 
-  return (num%10);
+  return (e);
 }
