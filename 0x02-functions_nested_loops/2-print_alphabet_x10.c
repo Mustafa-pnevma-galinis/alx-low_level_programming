@@ -1,5 +1,5 @@
 #include "main.h"
-
+#include <stdio.h>
 /**
 * print_alphabet - a function to print entire en alphabet in lowercase
 * 
@@ -28,6 +28,6 @@ void print_alphabet_x10(void){
 
         }
 
-        _printf("\n");
+        putchar('\n');
           
     }
