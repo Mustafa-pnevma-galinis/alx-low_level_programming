@@ -19,7 +19,7 @@ void print_alphabet_x10(void){
 
             val += 1;
 
-            if (val == 123 && count <= 11){
+            if (val == 123 && count <= 10){
 
                 count++;
                 val = 97;
