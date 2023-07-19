@@ -1,9 +1,9 @@
 #include "main.h"
 
 /**
-* print_last_digit - return the last digit number.
-* @num: is a full number.
-* Return: The last digit of the number.
+* _abs - return the absolute value of number.
+* @num: is a number.
+* Return: The abs.
 */
 
 int _abs(int number){
