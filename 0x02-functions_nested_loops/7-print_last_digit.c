@@ -8,7 +8,7 @@
 
 int print_last_digit(int num)
 {
-  if num < 0
+  if (num < 0)
   {
     int e = num%10 * -1;
     }
