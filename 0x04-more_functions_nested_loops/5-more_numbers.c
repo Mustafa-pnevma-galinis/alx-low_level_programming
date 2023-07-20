@@ -9,7 +9,7 @@
 
 void more_numbers(void)
 {
-int val = 48;
+        int val = 48;
         int count = 0;
 
         while (val < 58)
