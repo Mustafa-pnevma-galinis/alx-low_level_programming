@@ -9,21 +9,15 @@
 
 void more_numbers(void)
 {
-        int val = 48;
-        int count = 0;
-
-        while (val < 58)
+    int i;
+    int j;
+    
+    for (j = 0; j < 10; j++)
+    {
+        for (i = 0; i <= 14; i++)
         {
-            _putchar(val);
-
-            val += 1;
-
-            if (val == 58 && count <= 8)
-            {
-                count++;
-                val = 48;
-                _putchar('\n');
-            }
+        printf("%d", i);
         }
         putchar('\n');
+    } 
 }
