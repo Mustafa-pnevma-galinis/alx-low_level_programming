@@ -2,7 +2,7 @@
 
 /**
 * _isupper - return 1 if the provided character is uppercase and 0 if else.
-* @number: A character.
+* @c: A character.
 * Return: 1 or 0.
 */
 
