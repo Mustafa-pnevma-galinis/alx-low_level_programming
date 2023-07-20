@@ -1,6 +1,6 @@
 #include "main.h"
 /**
-* print_numbers - return numbers except when equals 2 or 4.
+* print_most_numbers - return numbers except when equals 2 or 4.
 *
 * Return: void.
 */
