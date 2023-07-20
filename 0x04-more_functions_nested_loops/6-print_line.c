@@ -1,7 +1,7 @@
 #include <main.h>
 
 /**
-* more_numbers - prints numbers 10 times.
+* print_line - prints numbers 10 times.
 * @n: number of times
 * Return: void.
 */
