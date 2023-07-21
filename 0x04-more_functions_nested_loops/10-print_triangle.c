@@ -1,30 +1,36 @@
-#include "stdio.h"
-#include <main.h>
+#include "holberton.h"
 
 /**
- * print_triangle - print a tri.
- * @size: size of triangle size.
- * Return: void.
+ * print_triangle - prints a triangle
+ * @size: length of sides minus hypotenuse
+ *
+ * Return: void
  */
 
 void print_triangle(int size)
 {
-       int i;
-       int j;
-       
-       if (size <= 0) 
-        {
-              _putchar("\n");
-        } 
-       else 
-       {
-            for (i = 0; i < size; i++) 
-            {
-              for (int j = 0; j <= i; j++) 
-              {
-              _putchar("#");
-              }
-            _putchar("\n");
-            }
-        }
+	int line = 0;
+	int spaces;
+	int hashes;
+
+	if (size > 0)
+	{
+		while (line < size)
+		{
+			for (spaces = size - 1; spaces > line; spaces--)
+			{
+				_putchar(' ');
+			}
+			for (hashes = 0; hashes < line + 1; hashes++)
+			{
+				_putchar('#');
+			}
+			_putchar('\n');
+			line++;
+		}
+	}
+	else
+	{
+		_putchar('\n');
+	}
 }
