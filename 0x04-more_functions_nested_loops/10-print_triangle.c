@@ -2,12 +2,12 @@
 #include <main.h>
 
 /**
- * main - print triangle
- *
- * Return: Always 0
+ * print_triangle - print a tri.
+ * @size: size of triangle size.
+ * Return: void.
  */
 
-int main(void)
+void print_triangle(int size)
 {
        if (size <= 0) 
         {
